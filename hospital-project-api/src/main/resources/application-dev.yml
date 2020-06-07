@@ -12,19 +12,6 @@ spring:
     port: 6379
     password: Aa@123123
 
-
-    # redis 哨兵模式
-#    database: 1
-#    password: imooc
-#    sentinel:
-#      master: imooc-master
-#      nodes: 192.168.0.1:26379,192.168.0.2:26379,192.168.0.3:26379
-
-    # redis 集群
-#    password: imooc
-#    cluster:
-#      nodes: 192.168.0.1:6379,192.168.0.2:6379,192.168.0.3:6379,192.168.0.4:6379,192.168.0.5:6379,192.168.0.6:6379
-
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #  mybatis日志

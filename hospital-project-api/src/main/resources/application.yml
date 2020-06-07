@@ -27,14 +27,14 @@ spring:
     store-type: redis
 #  mybatis  配置 #
 mybatis:
-  type-aliases-package:  com.imooc.pojo    #  所有POJO类所在包路径
+  type-aliases-package:  com.hospital.pojo    #  所有POJO类所在包路径
   mapper-locations:  classpath:mapper/*.xml    #  mapper映射文件
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #  mybatis日志
 
 #  generator
 mapper:
-  mappers: com.imooc.my.MyMapper
+  mappers: com.hospital.my.MyMapper
   not-empty: false
   identity: MYSQL
 
